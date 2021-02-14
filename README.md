@@ -1,49 +1,7 @@
-# Remotion video
+# Launch Video for PhotoTamer.app
 
-<p align="center">
-  <a href="https://github.com/JonnyBurger/remotion-logo">
-    <img src="https://github.com/JonnyBurger/remotion-logo/raw/main/withtitle/element-0.png">
-  </a>
-</p>
+Small MVP using Remotion.dev to create a PH-style launch gif icon for phototamer.app.
 
-Welcome to your Remotion project!
+This project is (c) all-rights-reserved 2021 Traveler Dev Ltd. The code is provided only as a reference to see how I used Remotion.
 
-## Commands
-
-**Start Preview**
-
-```console
-npm start
-```
-
-**Render video**
-
-```console
-npm run build
-```
-
-**Server render demo**
-
-```console
-npm run server
-```
-
-See [docs for server-side rendering](https://www.remotion.dev/docs/ssr) here.
-
-**Upgrade Remotion**
-
-```console
-npm run upgrade
-```
-
-## Docs
-
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/JonnyBurger/remotion/issues/new).
-
-## License
-
-Notice that a company license is needed. Read [the terms here](https://github.com/JonnyBurger/remotion/blob/main/LICENSE.md).
+Remotion is here used under it's "free for companies under 3 employees" license [detailed here](https://github.com/JonnyBurger/remotion/blob/main/LICENSE.md).
