@@ -5,6 +5,7 @@
   "scripts": {
     "start": "remotion preview src/index.tsx",
     "build": "remotion render src/index.tsx FullSequence out.mp4",
+    "build-gif": "(rm -rf out || 1) && remotion render src/index.tsx GifSource --png . out && convert -layers remove-dups -layers optimize -delay 4 -loop 0 out/element-*.png output.gif",
     "upgrade": "remotion upgrade",
     "test": "eslint 'src' --ext ts,tsx && tsc"
   },

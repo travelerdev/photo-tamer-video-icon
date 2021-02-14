@@ -9,6 +9,35 @@ export const RemotionVideo: React.FC = () => {
   return (
     <>
       <Composition
+        id="GifSource"
+        component={IconSequence}
+        durationInFrames={425}
+        fps={25}
+        width={128}
+        height={128}
+        defaultProps={{
+          badFiles: [
+            {
+              color: "#DC2626",
+              label: "TIFF"
+            },
+            {
+              color: "#5B21B6",
+              label: "PSD",
+              goodLabel: "PNG"
+            },
+            {
+              color: "#9D174D",
+              label: "HEIC"
+            },
+            {
+              color: "#B45309",
+              label: "RAW"
+            }
+          ]
+        }}
+      />
+      <Composition
         id="FullSequence"
         component={IconSequence}
         durationInFrames={510}
